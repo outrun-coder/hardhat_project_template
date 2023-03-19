@@ -15,6 +15,7 @@
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
     "start:local-hardhat-node": "npx hardhat node",
+    "test:all-contracts": "npx hardhat test"
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
