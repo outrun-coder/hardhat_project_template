@@ -16,7 +16,8 @@
     "typecheck": "tsc --noEmit",
     "start:local-hardhat-node": "npx hardhat node",
     "test:all-contracts": "npx hardhat test",
-    "test:target-contract": "sh ./shell-scripts/test-contract.sh"
+    "test:target-contract": "sh ./shell-scripts/test-contract.sh",
+    "deploy-local:target-contract": "sh ./shell-scripts/deploy-local-contract.sh"
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
