@@ -1,0 +1,17 @@
+# from Gatsby gen
+node_modules/
+.cache/
+public
+src/gatsby-types.d.types
+
+# from Hardhat gen
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
